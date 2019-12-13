@@ -1,3 +1,17 @@
+/*Fonts*/
+@font-face {
+  font-family: secondaryFont;
+  src: url('https://cdn.0wo.moe/takoyakii/fontfaces/CaviarDreams.woff');
+}
+@font-face {
+  font-family: secondaryFont;
+  src: url('https://cdn.0wo.moe/takoyakii/fontfaces/CaviarDreams.eot'); /*Using an old version of IE? I got'chu covered!*/ 
+}
+
+.secFont {
+  font-family: secondaryFont;
+}
+
 /*misc.*/
 body, html {
   height: 100%;
@@ -9,7 +23,7 @@ body, html {
 
 /*bg*/
 .coolbg {
-  background-image: url("https://www.0wo.moe/subdomains/alex.0wo.moe/imgs/bg.gif");
+  background-image: url("https://cdn.0wo.moe/takoyakii/imgs/bg.gif");
 
  
   filter: blur(8px);
@@ -38,19 +52,7 @@ body, html {
   width: 50%;
   padding: 20px;
   text-align: center;
-}
-
-/*Fonts*/
-@font-face {
-    font-family: secondaryFont;
-    src: url('https://www.0wo.moe/subdomains/cdn.0wo.moe/takoyakii/fontfaces/CaviarDreams.woff');
-}
-@font-face {
-    font-family: secondaryFont;
-    src: url('https://www.0wo.moe/subdomains/cdn.0wo.moe/takoyakii/fontfaces/CaviarDreams.eot'); /*Using an old version of IE? I got'chu covered!*/ 
-}
-.secFont {
-    font-family: secondaryFont;
+  float: left;
 }
 
 /*Avatar Image*/

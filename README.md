@@ -1,2 +1,2 @@
-# digitalinfocard
-A simple way to hand out cards and bussiness cards. 100% digital, no waste.
+# alex-web.dev
+A simple way to hand out my contact/ business card. 100% digital, no waste.

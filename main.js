@@ -1,3 +1,7 @@
+if (screen.width <= 699) {
+  document.location = "mobile.html";
+}
+
 var TxtType = function(el, toRotate, period) {
     this.toRotate = toRotate;
     this.el = el;

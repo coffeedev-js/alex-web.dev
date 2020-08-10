@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <meta name="description" content="Just another Website for Kaomojis!">
-
+    <link rel="icon" type="image/png" href="favicon-32x32.png" sizes="32x32">
     <!--Implement video meta data-->
 
     <!--New Meta data for WhatsApp-->
@@ -29,27 +29,57 @@
     <meta property="twitter:description" content="No need for Ctrl+C and Ctrl+V!">
     <meta property="twitter:image" content="https://www.0wo.moe/metaimgs/fb">
 
-    <!--Some css-->
-    <link rel="stylesheet" href="https://www.0wo.moe/subdomains/alex.0wo.moe/css/main.css">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
-    
-    <!--Some Scripts that make life easier-->
-    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
-    
-    <title>xTakoyakii</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.0.0/animate.min.css"/>
+    <link rel="stylesheet" href="style.css">
+    <title>alex-web.dev!</title>
+    <script type="text/javascript">
+        if (screen.width <= 699) {
+        document.location = "mobile.html";
+        }
+    </script>
+    <script language=javascript>
+        if ((navigator.userAgent.match(/iPhone/i)) || (navigator.userAgent.match(/iPod/i))) {
+           location.replace("https://www.alex-web.dev/mobile.html");
+        }
+    </script>
 </head>
-    <body>
-        <div class="coolbg"></div>
-       <!-- <div class="CoolDepictionOfMe">
-            <img src="https://cdn.0wo.moe/takoyakii/imgs/takoyakii.jpg">
-        </div>-->
-        <div class="digitalCard">    
-        <div class= "secFont">
-          <h1>xTakoyakii</h1>
-              <p>Rookie Webdeveloper | Artist | Cosplayer</p>
-          </div>
+<body>
+    <div class="header">
+        <div class="inner-header flex">
+            <h1>alex-web.<i class="fab fa-dev"></i></h1>
         </div>
-    </body>
+        <p>Webdeveloper | IT-Salesman |  3D printing enthusiast</p>
+        <p><i>"Hello! My name is Alex and i am a Webdeveloper. I build websites but also do a lot of other cool projects, feel free to check them out!"</i></p>
+        <div class ="endcard animate__animated animate__fadeInUp">
+            <div>
+                <p style="font-size:large;">View my Portfolio&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p>
+            </div>            
+            <div>
+                <p style="font-size:large;">Visit my GitHub</p>
+            </div>
+        </div>
+        <a href="https://www.mibph.org/comingsoon.html"><i class="fas fa-id-card fa-9x animate__animated animate__fadeInUp">&nbsp;&nbsp;</i></a>
+        <a href="https://github.com/xtakoyakii/"><i class="fab fa-github fa-9x animate__animated animate__fadeInUp"></i></a>
+        <div class="container">
+            <a href="mailto:alex@platonov.email" class="button animate__animated animate__fadeInUp">Contact me&nbsp;<i class="far fa-envelope"></i></a>
+            <span class="animate__animated animate__fadeInUp">©2020 alex-web.dev | ©Takolabs</span>
+        </div>  
+        <div>
+            <svg class="waves" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 24 150 28" preserveAspectRatio="none" shape-rendering="auto">
+                <defs>
+                    <path id="gentle-wave" d="M-160 44c30 0 58-18 88-18s 58 18 88 18 58-18 88-18 58 18 88 18 v44h-352z" />
+                </defs>
+                <g class="parallax">
+                    <use xlink:href="#gentle-wave" x="48" y="0" fill="rgba(255,255,255,0.7" />
+                    <use xlink:href="#gentle-wave" x="48" y="3" fill="rgba(255,255,255,0.5)" />
+                    <use xlink:href="#gentle-wave" x="48" y="5" fill="rgba(255,255,255,0.3)" />
+                    <use xlink:href="#gentle-wave" x="48" y="7" fill="#fff" />
+                </g>
+            </svg>
+        </div>
+    </div>
+    <script src="main.js"></script>
+    <script src="https://kit.fontawesome.com/18267d4626.js" crossorigin="anonymous"></script>
+</body>
 </html>

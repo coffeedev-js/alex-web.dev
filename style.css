@@ -229,3 +229,7 @@ p {
   i {
     animation-delay: 1s;
   }
+
+  i:hover {
+    color: #b19cec
+  }

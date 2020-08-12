@@ -230,6 +230,37 @@ p {
     animation-delay: 1s;
   }
 
-  i:hover {
-    color: #b19cec
+  i.github:hover {
+    color: #b19cec;
   }
+i.card:hover {
+  color: #b19cec;
+}
+.pb {
+  border-radius: 50%;
+  height: 7.5%;
+  width: 7.5%;
+  background-color: rgb(0,0,0);
+  background-color: rgba(0,0,0, 0.4);
+  color: white;
+  border: 3px solid #f1f1f1;
+}
+.pb:hover {
+  box-shadow: #ffffff 1px 1px 10px 1px;
+
+}
+
+@media (max-device-width: 699px){
+  .skills  {
+    font-size: x-small;
+  }
+  .pb {
+    height: 45%;
+    width: 45%;
+  }
+  .about{
+    font-size: 15px;
+    margin-left: 10%;
+    width: 80%;
+  }
+}

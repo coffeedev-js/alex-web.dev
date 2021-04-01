@@ -28,12 +28,12 @@ p {
     display: inline-block;
     vertical-align: middle;
 }
-/*.inner-header {
-    height: 65vh;
+.inner-header {
+    height: 15vh;
     width: 100%;
     margin: 0;
     padding: 0;
-}*/
+}
 .flex {
     display: flex;
     justify-content: center;
@@ -263,4 +263,16 @@ i.card:hover {
     margin-left: 10%;
     width: 80%;
   }
+}
+
+.navdivider{
+  border-bottom:solid rgb(255, 255, 255);
+  border-width: 1px;
+  max-width: 50%;
+  margin:auto;
+  height: 5%;
+}
+
+#navtext{
+  margin-bottom: 0%;
 }

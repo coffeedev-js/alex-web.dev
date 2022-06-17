@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap');
 *,
 :after,
 :before {
@@ -29,7 +29,9 @@ body {
 h1,h2,h4,p {
   color: #ffffff;
 }
-
+.handwriting{
+  font-family: 'Indie Flower', sans-serif;
+}
 hr {
   border-style: none;
   border-top-style: dotted;
